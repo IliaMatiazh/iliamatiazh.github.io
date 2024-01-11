@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Ilia Matiazh portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo_small.jpg" />
+</head>
+
+<body>
+    <header class="menu">
+        <img class="menu-logo" src="assets/logo.svg" alt="Ilia Matyazh logo"/>
+        <nav>
+            <ul class="menu-navigation">
+                <li class="menu-navigation-item"><a href="#about" class="menu-text">About</a></li>
+                <li class="menu-navigation-item"><a href="#projects" class="menu-text">Projects</a></li>
+                <li class="menu-navigation-item"><a href="#footer" class="menu-text">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="projects">
+        <div class="portfolio">
+            <div class="portfolio-project" onclick="showModal('shipModal')">
+                <img class="image" src="assets/ship.png" alt="Ship"/>
+                <div class="name">Star Wars X Ducati (AGP Contest)</div>
+            </div>
+            <div class="portfolio-project" onclick="showModal('furnitureModal')">
+                <img class="image" src="assets/furniture.png" alt="Furniture"/>
+                <div class="name">Adjustable transformable furniture</div>
+            </div>
+            <div class="break"></div>
+            <div class="portfolio-project" onclick="showModal('vestModal')">
+                <img class="image" src="assets/vest.png" alt="Vest"/>
+                <div class="name">Air purifying vest</div>
+            </div>
+            <div class="portfolio-project" onclick="showModal('mapModal')">
+                <img class="image" src="assets/map.png" alt="Map"/>
+                <div class="name">University entrance redesign X ATYPIKA Foundation</div>
+            </div>
+        </div>
+        <div id="about">
+            <h1 class="uppercase-text">About</h1>
+            <div class="about-content">
+                <p class="about-content--left">
+                    I am a passionate industrial/product designer, who is dedicated to creating innovative user-centric solutions. 
+                    With a combination of creativity, technical expertise, and a keen eye for aesthetics, I strive to design products 
+                    that are not only functional, but also which elicit a sense of visual delight. Currently pursuing my education 
+                    in industrial design at the School of Form (SWPS) in Warsaw, as a fourth (last) year student.
+                </p>
+                <p class="about-content--right">
+                    Over the past 1.5 year, I started my journey as a independent freelancer through Upwork service. After more than 
+                    40 successful collaborations with brands and individual clients, my profile has garnered a multitude 5 stars 
+                    reviews + comments highlighting my professionalism and top work quality. Which helped me to earn in a short 
+                    time "Top rated" status and "100% job success score" and form a freelance agency ("Visla Studio").
+                </p>
+            </div>
+        </div>
+
+        <!-- The Ship Modal -->
+        <div id="shipModal" class="modal">
+            <div class="modal-content">
+                <img class="image" src="assets/main_ship.jpg" alt="Ship"/>
+                <div class="description">
+                    <p class="menu-text">Star Wars X Ducati</p>
+                    <p>
+                        The entry for AGP contest (May, 2023) (embedded link to be sent later) for “Ducati + Starfighter + Rebel Alliance” theme. 
+                        The design was chosen as one of the finalists.
+                    </p>
+                    <p>
+                        It is a digital project made together with my colleague, a Star Wars fan, who took the role of a star wars design language expert.
+                    </p>
+                    <p>
+                        «RS-900 J-Wing» was an advanced reconnaissance starfighter. It was equipped with a complex sensor package in the rotating wing's 
+                        sidepod, and four powerful engines through which it achieved remarkable speed.
+                    </p>
+                    <p>
+                        Kuat's design philosophy seamlessly blends classic styling with a distinctive livery, paying homage to a motor icon (Ducati) from 
+                        a more civilised era. This  approach did not only showcase the starfighter's aesthetic appeal but also underscored the fusion of 
+                        timeless design elements with state-of-the-art technology. The «RS-900 J-Wing» was not merely a triumph of engineering; it was a 
+                        testament to the seamless integration of tradition and innovation in the vast expanse of the galactic frontier.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- The Furniture Modal -->
+        <div id="furnitureModal" class="modal">
+            <div class="modal-content">
+                <img class="image" src="assets/main_furniture.jpg" alt="Furniture"/>
+                <div class="description">
+                    <p class="menu-text">Adjustable transformable furniture</p>
+                    <p>
+                        The Adjustable Transformable Chair/table is designed to address the challenges of existing school furniture, particularly for middle 
+                        school students aged 10-15. Recognising the lack of mobility and adjustability in current furniture, the project aims to revolutionise 
+                        the traditional classroom setup.
+                    </p>
+                    <p>
+                        Focusing on the needs of curious and eager-to-learn students, design prioritises ergonomic comfort to enhance the learning experience. 
+                        It addresses the issue of incorrectly sized furniture, which can lead to back pains and posture problems, by providing adjustable options 
+                        that accommodate students' varying heights (During 5 years of studying students grow by 35-40 cm on average)
+                    </p>
+                    <p>
+                        Furthermore, the chair promotes natural body movement and varied postures to create a healthier and more dynamic learning environment. 
+                        In addition, it emphasises flexibility and mobility, allowing for easier movement and rearrangement to adapt classrooms for different 
+                        teaching styles and activities.
+                    </p>
+                    <p>
+                        Full project presentation (research, design, prototype) Here (embedded link to be sent later)
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- The Vest Modal -->
+        <div id="vestModal" class="modal">
+            <div class="modal-content">
+                <img class="image" src="assets/main_vest.jpg" alt="Vest"/>
+                <div class="description">
+                    <p class="menu-text">Air purifying vest</p>
+                    <p>
+                        Speculative team project with Mikołaj Bańka, Faisal Nurrachman and Anna Fortecka in School of Form (SWPS, Warsaw)
+                    </p>
+                    <p>
+                        Initial research was focused on understanding smoking habits and addressing the challenges of secondhand 
+                        smoke exposure. The target group comprised aversive non-smoker university students, dealing with smokers 
+                        on campus and experiencing the adverse effects of secondhand smoke. 
+                    </p>
+                    <p>
+                        These individuals are concerned about poor air quality caused by smoking, leading to breathing difficulties 
+                        and an increased risk of respiratory problems. As a result of the research, a speculative project emerged, 
+                        underlining the "conflict" between smokers and non-smokers beyond conventional cigarette pollution 
+                        (air pollution).
+                    </p>
+                    <p>
+                        The envisioned scenario involves a world where fine particulate pollution permeates the air, requiring 
+                        personal purification devices (PPDs) in more contaminated areas. The concept of an early PPD prototype 
+                        was conceived.
+                    </p>
+                    <p>
+                        The PPD operates by detecting pollution through a strategically positioned dust sensor on the chest. 
+                        In response to elevated pollution levels, the face shield automatically ascends to shield against smoke 
+                        and fine particles. Simultaneously, an LED strip illuminates, serving as a visual indicator of potential 
+                        danger not only for the user but also for those in the vicinity. Subsequently, a filtering system, 
+                        discreetly located on the hip, purifies the air, ensuring the user receives a continuous supply of 
+                        fresh air propelled by an integrated fan.
+                    </p>
+                    <p>
+                        Full project presentation (research, design, prototype) Here (embedded link to be sent later)
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- The Map Modal -->
+        <div id="mapModal" class="modal">
+            <div class="modal-content">
+                <img class="image" src="assets/main_map.jpg" alt="Map"/>
+                <div class="description">
+                    <p class="menu-text">University entrance redesign X ATYPIKA Foundation</p>
+                    <p>
+                        Team project with Anna Fortecka in collaboration with «Atypika Foundation» in School of Form (SWPS, Warsaw).
+                    </p>
+                    <p>
+                        Top - before, bottom - after.
+                    </p>
+                    <p>
+                        Our team explored the significance of ensuring that entrances are accessible to all, adhering to universal 
+                        design principles that promote inclusivity, including designing for neurodivergent individuals. 
+                    </p>
+                    <p>
+                        Our observations and interviews with students, teachers and guests revealed several key findings about 
+                        the main hall of the SWPS University - there is high foot traffic and activity level, information overload, 
+                        high noise level and distractions, under stimulation, limited wayfinding signage (lack of clear wayfinding 
+                        signage - student struggling in locating specific places within the main entrance).
+                    </p>
+                    <p>
+                        Therefore, in the next stages of the project, our team designed and implemented an enhanced, organised 
+                        information system, thanks to which the best possible user experience in the big (complicated) areas 
+                        such as SWPS university entrance is going to be ensured.
+                    </p>
+                    <p>
+                        The changes that are proposed are: placing wall with map between 2 opposite sliding doors (entrances), 
+                        adding directional guiding lines on the floor, marking each part of the building with colour as well as 
+                        letter (North and South wings, Parter), close CSA waiting space and create an additional room with addition 
+                        of natural materials (moss, pine wood, plants), acoustic panels, more structured information and step 
+                        guidance in order to get in CSA (ticket confirmation, waiting area, entrance to the CSA).
+                    </p>
+                    <p>
+                        Full project presentation (research, design, prototype) Here (embedded link to be sent later)
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="contacts">
+            <div>
+                <p class="contacts--label">Contacts:</p>
+                <p><a class="contacts--link" href="mailto:ilyamatyazh2002@gmail.com">ilyamatyazh2002@gmail.com</a></p>
+            </div>
+            <div class="contacts--container">
+                <p><a class="contacts--link" href="https://www.upwork.com/freelancers/~015d5e882307a8b988" target="_blank">Behance</a></p>
+                <p><a class="contacts--link" href="https://www.upwork.com/freelancers/~015d5e882307a8b988" target="_blank">Instagram</a></p>
+                <div class="break"></div>
+                <p><a class="contacts--link" href="https://www.linkedin.com/in/ilia-matiazh" target="_blank">LinkedIn</a></p>
+                <p><a class="contacts--link" href="https://www.upwork.com/freelancers/~015d5e882307a8b988" target="_blank">Upwork</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

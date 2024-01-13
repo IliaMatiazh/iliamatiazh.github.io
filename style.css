@@ -2,9 +2,21 @@
     color: whitesmoke
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(assets/font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(assets/font/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
 body {
     margin: 0;
     font-size: 12px;
+    font-family: Roboto;
 }
 
 li {

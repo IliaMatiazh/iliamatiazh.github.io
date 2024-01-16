@@ -30,6 +30,7 @@ a {
 .menu {
     position: fixed;
     display: flex;
+    z-index: 100;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -90,6 +91,7 @@ a {
 .portfolio-project {
     margin: auto;
     width: 35%;
+    position: relative;
     
     @media (max-width: 950px) {
         width: 45%;
@@ -105,15 +107,35 @@ a {
     text-transform: uppercase;
     margin: 2px;
     visibility: hidden;
+
+    @media (max-width: 650px) {
+        visibility: visible;
+    }
     text-align: center;
 }
 
 .portfolio-project .image {
+    position: relative;
+    z-index: 10;
     width: 100%;
 }
 
-.portfolio-project:hover .image,
-.portfolio-project:active .image {
+.portfolio-project .light {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 84%;
+    margin: 10% 1% 10% 15%;
+    height: 75%;
+    background-color: rgba(0,0,0,0);
+}
+
+.portfolio-project .light--left {
+    margin: 10% 15% 10% 1% !important;
+}
+
+.portfolio-project:hover .light ,
+.portfolio-project:active .light {
     background-color: #333e4b;
 }
 
@@ -130,7 +152,7 @@ a {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 110;
     left: 0;
     top: 0;
     width: 100%;

@@ -34,7 +34,7 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-image: linear-gradient(rgba(13,15, 20, 1) 0% 65%, rgba(51,63,77,0));
+    background-image:  linear-gradient(rgba(22,26, 35, 1) 0% 50%, rgba(22,26, 35, 0));
 }
 
 .menu-logo {
@@ -81,7 +81,7 @@ a {
 
 .portfolio {
     padding-top: 110px;
-    background: linear-gradient(#36404d, #333f4d 10% 25%, #0c0f13);
+    background: linear-gradient(#242d37 0% 15%, #161a23 50%, #242d37 60%, #161a23);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -221,7 +221,7 @@ a {
 }
 
 #about {
-    background-color: #0c0f13;
+    background-color: #161a23;
     padding: 30px;
 }
 

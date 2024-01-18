@@ -287,3 +287,7 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.project-link {
+    text-decoration: underline;
+}

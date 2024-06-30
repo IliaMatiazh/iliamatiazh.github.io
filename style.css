@@ -138,6 +138,20 @@ a {
     width: 100%;
 }
 
+.portfolio-project .image--desktop {
+    @media (min-width: 650px) {
+        display: block;
+    }
+    display: none;
+}
+
+.portfolio-project .image--mobile {
+    @media (max-width: 650px) {
+        display: block;
+    }
+    display: none;
+}
+
 .portfolio-project .light {
     position: absolute;
     top: 0;

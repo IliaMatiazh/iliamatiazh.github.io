@@ -13,6 +13,11 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(assets/font/Roboto-LightItalic.ttf);
+}
+
 body {
     margin: 0;
     font-size: 12px;
@@ -25,6 +30,10 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.text-italic {
+    font-family: Roboto-Italic;
 }
 
 .menu {
@@ -299,4 +308,8 @@ a {
 
 .project-link {
     text-decoration: underline;
+}
+
+.project-link--hightlight {
+    background-color: #590f0f;
 }

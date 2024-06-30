@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: Roboto;
-    src: url(assets/font/Roboto-Bold.ttf);
+    src: url(assets/font/Roboto-Regular.ttf);
 }
 
 @font-face {
@@ -103,15 +103,24 @@ a {
     cursor: pointer;
 }
 
+.portfolio-project--full-length {
+    @media (max-width: 950px) {
+        width: 90%;
+    }
+    width: 75%;
+}
+
 .portfolio-project .name {
     text-transform: uppercase;
-    margin: 2px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
     visibility: hidden;
 
     @media (max-width: 650px) {
         visibility: visible;
     }
-    text-align: center;
 }
 
 .portfolio-project .image {

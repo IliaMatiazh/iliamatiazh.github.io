@@ -23,21 +23,25 @@
     </header>
     <main id="projects">
         <div class="portfolio">
+            <div class="portfolio-project portfolio-project--full-length" onclick="showModal('carModal')">
+                <img class="image" src="assets/car.png" alt="Car"/>
+                <div class="name">The BMW i-Classic Vision</div>
+            </div>
             <div class="portfolio-project" onclick="showModal('shipModal')">
                 <img class="image" src="assets/ship.png" alt="Ship"/>
                 <div class="name">Star Wars X Ducati (AGP Contest)</div>
-                <div class="light"></div>
+                <!--<div class="light"></div>-->
             </div>
             <div class="portfolio-project" onclick="showModal('furnitureModal')">
                 <img class="image" src="assets/furniture.png" alt="Furniture"/>
                 <div class="name">Adjustable transformable furniture</div>
-                <div class="light light--left"></div>
+                <!--<div class="light light--left"></div>-->
             </div>
             <div class="break"></div>
             <div class="portfolio-project" onclick="showModal('vestModal')">
                 <img class="image" src="assets/vest.png" alt="Vest"/>
                 <div class="name">Air purifying vest</div>
-                <div class="light"></div>
+                <!--<div class="light"></div>-->
             </div>
             <div class="portfolio-project" onclick="showModal('mapModal')">
                 <img class="image" src="assets/map.png" alt="Map"/>
@@ -63,6 +67,38 @@
             </div>
         </div>
 
+        <!-- The Car Modal -->
+        <div id="carModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('carModal')">x</span>
+                <img class="image" src="assets/main_car.jpg" alt="Car"/>
+                <div class="description">
+                    <p class="header">The BMW i-Classic Vision</p>
+                    <p>
+                        Full project presentation (research, design, prototype) <span><a class="project-link " href="https://www.behance.net/gallery/189217285/Adjustable-Furniture" target="_blank">Here</a></span>
+                    </p>
+                    <p>
+                        In the modern and rapidly evolving world, sustainability has a centre role, driving the development of technologies aimed towards greener products. 
+                        Among the front of this movement is the automotive industry, where electric vehicle technologies are revolutionising car design by prioritising 
+                        carbon emission reduction and phasing out internal combustion engines.
+                    </p>
+                    <p>
+                        My journey, started at understanding the mechanics and environmental impact of electric vehicles, uncovered a deeper truth: it is not merely about 
+                        the superiority of new technologies, as for the public, unfamiliar and unconventional often borns both scepticism and resistance. 
+                        This is also complicated by the automotive industry's tendency to simultaneously redefine both visual and technological aspects, often 
+                        losing brands' design DNAs, identity, values and cultural heritage embedded in their products.
+                    </p>
+                    <p>
+                        Hence, my project was focused on reconciling the past, present, and future within the realm of consumer perception. I created an exterior car 
+                        design proposal for one of the leading transportation manufacturers (BMW). My goal was not on wholesale reinvention of car design practices but 
+                        rather on confronting contemporary car design challenges, by embracing distinctive BMW character adapted and reinterpreted to the realms of new 
+                        technologies. The target was to bridge the gap between innovation and familiarity, ensuring that consumers perceive a cohesive narrative that 
+                        demonstrates a holistic picture of design evolution.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
         <!-- The Ship Modal -->
         <div id="shipModal" class="modal">
             <div class="modal-content">
